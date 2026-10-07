@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GAMEY | Premium Anime Editor</title>
+    <meta name="description" content="GAMEY is an anime editing channel focused on transforming powerful anime moments into cinematic, emotional and high-energy edits.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Rajdhani:wght@400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <header class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <span class="glow-dot"></span>
+                GAMEY
+            </a>
+            
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <nav class="nav-links" id="nav-links">
+                <a href="#hero" class="nav-link active">HOME</a>
+                <a href="#about" class="nav-link">ABOUT</a>
+                <a href="#edits" class="nav-link">EDITS</a>
+                <a href="#tools" class="nav-link">TOOLS</a>
+                <a href="#youtube" class="nav-link">YOUTUBE</a>
+                <a href="#contact" class="nav-link">CONTACT</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- HERO SECTION -->
+        <section id="hero" class="hero">
+            <div class="hero-bg">
+                <div class="hero-grid"></div>
+                <canvas id="particle-canvas"></canvas>
+            </div>
+            
+            <div class="hero-content">
+                <div class="hero-text">
+                    <div class="label-box">
+                        <span class="label-text">ANIME EDITOR</span>
+                    </div>
+                    <h1 class="main-heading glitch" data-text="GAMEY">GAMEY</h1>
+                    <h2 class="sub-heading">ANIME EDITS &bull; CINEMATIC VIBES &bull; GAMING ENERGY</h2>
+                    <p class="description">Turning anime moments into powerful cinematic edits.</p>
+                    <div class="hero-buttons">
+                        <a href="#featured" class="btn btn-primary">WATCH MY EDITS</a>
+                        <a href="https://youtube.com/@m.yashwanth-z8h?si=R3jw2YKWB-fzNWR9" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">YOUTUBE CHANNEL</a>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT SECTION -->
+        <section id="about" class="about section-padding">
+            <div class="container">
+                <div class="section-header fade-in">
+                    <h2 class="section-title">ABOUT GAMEY</h2>
+                    <p class="section-subtitle">Transforming powerful anime moments into cinematic, emotional and high-energy edits.</p>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-card fade-in">
+                        <div class="card-hud-corners">
+                            <i></i><i></i><i></i><i></i>
+                        </div>
+                        <div class="card-number">01</div>
+                        <h3 class="card-title">ANIME EDITS</h3>
+                        <p class="card-text">Capturing the most intense and breathtaking scenes from top anime series and elevating them with precise cutting.</p>
+                    </div>
+                    <div class="about-card fade-in" style="transition-delay: 0.1s;">
+                        <div class="card-hud-corners">
+                            <i></i><i></i><i></i><i></i>
+                        </div>
+                        <div class="card-number">02</div>
+                        <h3 class="card-title">CINEMATIC STYLE</h3>
+                        <p class="card-text">Applying advanced color grading, high-dynamic contrast, and immersive sound design to create a movie-like experience.</p>
+                    </div>
+                    <div class="about-card fade-in" style="transition-delay: 0.2s;">
+                        <div class="card-hud-corners">
+                            <i></i><i></i><i></i><i></i>
+                        </div>
+                        <div class="card-number">03</div>
+                        <h3 class="card-title">GAMING ENERGY</h3>
+                        <p class="card-text">Infusing edits with the fast-paced, high-octane energy and aesthetics of AAA gaming masterpieces.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ANIME EDITS SECTION -->
+        <section id="edits" class="edits section-padding">
+            <div class="container">
+                <div class="section-header fade-in">
+                    <h2 class="section-title">ANIME EDITS</h2>
+                    <p class="section-subtitle">Turning anime moments into cinematic experiences.</p>
+                </div>
+
+                <div class="gallery-grid">
+                    <!-- Action -->
+                    <div class="gallery-item fade-in">
+                        <div class="gallery-img-wrapper">
+                            <img src="assets/anime-01.jpg" alt="Action Edit" class="placeholder-img" onerror="this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNDUwIiBmaWxsPSIjMTExIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIi8+PC9zdmc+'">
+                            <div class="gallery-overlay">
+                                <button class="play-btn" data-video="assets/edit-01.mp4">
+                                    <span class="play-icon">▶</span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="gallery-info">
+                            <span class="category">ACTION</span>
+                            <h3 class="item-title">Demon Slayer Epic Clash</h3>
+                            <p class="item-desc">High-speed combat and stunning visual effects.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Emotional -->
+                    <div class="gallery-item fade-in" style="transition-delay: 0.1s;">
+                        <div class="gallery-img-wrapper">
+                            <img src="assets/anime-02.jpg" alt="Emotional Edit" class="placeholder-img" onerror="this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNDUwIiBmaWxsPSIjMTExIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIi8+PC9zdmc+'">
+                            <div class="gallery-overlay">
+                                <button class="play-btn" data-video="assets/edit-02.mp4">
+                                    <span class="play-icon">▶</span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="gallery-info">
+                            <span class="category">EMOTIONAL</span>
+                            <h3 class="item-title">Silent Voice Reflections</h3>
+                            <p class="item-desc">Deep narrative focus with cinematic color grading.</p>
+                        </div>
+                    </div>
+
+                    <!-- Dark -->
+                    <div class="gallery-item fade-in" style="transition-delay: 0.2s;">
+                        <div class="gallery-img-wrapper">
+                            <img src="assets/anime-03.jpg" alt="Dark Edit" class="placeholder-img" onerror="this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNDUwIiBmaWxsPSIjMTExIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIi8+PC9zdmc+'">
+                            <div class="gallery-overlay">
+                                <button class="play-btn" data-video="assets/edit-03.mp4">
+                                    <span class="play-icon">▶</span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="gallery-info">
+                            <span class="category">DARK</span>
+                            <h3 class="item-title">Jujutsu Kaisen Shadows</h3>
+                            <p class="item-desc">Aggressive editing with glitch and distortion effects.</p>
+                        </div>
+                    </div>
+
+                    <!-- Cinematic -->
+                    <div class="gallery-item fade-in" style="transition-delay: 0.3s;">
+                        <div class="gallery-img-wrapper">
+                            <img src="assets/anime-04.jpg" alt="Cinematic Edit" class="placeholder-img" onerror="this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNDUwIiBmaWxsPSIjMTExIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIi8+PC9zdmc+'">
+                            <div class="gallery-overlay">
+                                <button class="play-btn" data-video="assets/edit-04.mp4">
+                                    <span class="play-icon">▶</span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="gallery-info">
+                            <span class="category">CINEMATIC</span>
+                            <h3 class="item-title">Attack on Titan Scale</h3>
+                            <p class="item-desc">Epic scope highlighting the grand scale of the world.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- EDITING TOOLS SECTION -->
+        <section id="tools" class="tools section-padding">
+            <div class="container">
+                <div class="section-header fade-in">
+                    <h2 class="section-title">MY EDITING TOOLS</h2>
+                    <p class="section-subtitle">The software used to craft every frame.</p>
+                </div>
+
+                <div class="tools-grid">
+                    <div class="tool-card fade-in">
+                        <div class="tool-icon">CP</div>
+                        <h3 class="tool-name">CAPCUT</h3>
+                        <p class="tool-desc">Primary editor for fast-paced cuts, dynamic transitions, and modern effects.</p>
+                        <div class="skill-bar-container">
+                            <div class="skill-bar" style="width: 95%;"></div>
+                        </div>
+                    </div>
+
+                    <div class="tool-card fade-in" style="transition-delay: 0.1s;">
+                        <div class="tool-icon">AM</div>
+                        <h3 class="tool-name">ALIGHT MOTION</h3>
+                        <p class="tool-desc">Used for custom keyframe animations, complex masking, and glowing overlays.</p>
+                        <div class="skill-bar-container">
+                            <div class="skill-bar" style="width: 85%;"></div>
+                        </div>
+                    </div>
+
+                    <div class="tool-card fade-in" style="transition-delay: 0.2s;">
+                        <div class="tool-icon">PA</div>
+                        <h3 class="tool-name">PICSART</h3>
+                        <p class="tool-desc">Essential for thumbnail creation, typography layouts, and image manipulation.</p>
+                        <div class="skill-bar-container">
+                            <div class="skill-bar" style="width: 90%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FEATURED EDITS SECTION -->
+        <section id="featured" class="featured section-padding">
+            <div class="container">
+                <div class="section-header fade-in">
+                    <h2 class="section-title">FEATURED EDITS</h2>
+                    <p class="section-subtitle">Top tier cinematic creations.</p>
+                </div>
+
+                <div class="featured-grid">
+                    <!-- Featured 1 -->
+                    <div class="featured-card fade-in">
+                        <div class="featured-img" style="background-image: url('assets/hero.jpg'); background-color: #111; background-size: cover; background-position: center;"></div>
+                        <div class="featured-content">
+                            <span class="featured-number">01</span>
+                            <div class="featured-text">
+                                <span class="featured-category">ANIME EDIT</span>
+                                <h3 class="featured-title">The Awakening</h3>
+                                <button class="btn btn-primary play-btn" data-video="assets/edit-01.mp4">WATCH</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Featured 2 -->
+                    <div class="featured-card fade-in">
+                        <div class="featured-img" style="background-image: url('assets/void_walker.jpg'); background-color: #080A10; background-size: cover; background-position: center;"></div>
+                        <div class="featured-content">
+                            <span class="featured-number">02</span>
+                            <div class="featured-text">
+                                <span class="featured-category">DARK EDIT</span>
+                                <h3 class="featured-title">Void Walker</h3>
+                                <button class="btn btn-primary play-btn" data-video="assets/edit-02.mp4">WATCH</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Featured 3 -->
+                    <div class="featured-card fade-in">
+                        <div class="featured-img" style="background-image: url('assets/lost_memories.jpg'); background-color: #080A10; background-size: cover; background-position: center;"></div>
+                        <div class="featured-content">
+                            <span class="featured-number">03</span>
+                            <div class="featured-text">
+                                <span class="featured-category">EMOTIONAL EDIT</span>
+                                <h3 class="featured-title">Lost Memories</h3>
+                                <button class="btn btn-primary play-btn" data-video="assets/edit-03.mp4">WATCH</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Featured 4 -->
+                    <div class="featured-card fade-in">
+                        <div class="featured-img" style="background-image: url('assets/god_tier_clash.jpg'); background-color: #080A10; background-size: cover; background-position: center;"></div>
+                        <div class="featured-content">
+                            <span class="featured-number">04</span>
+                            <div class="featured-text">
+                                <span class="featured-category">CINEMATIC EDIT</span>
+                                <h3 class="featured-title">God Tier Clash</h3>
+                                <button class="btn btn-primary play-btn" data-video="assets/edit-04.mp4">WATCH</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- YOUTUBE SECTION -->
+        <section id="youtube" class="youtube-section section-padding">
+            <div class="container yt-container fade-in">
+                <div class="yt-content">
+                    <h2 class="section-title">WATCH GAMEY ON YOUTUBE</h2>
+                    <p class="yt-text">More anime edits, cinematic moments and high-energy visuals.</p>
+                    <a href="https://youtube.com/@m.yashwanth-z8h?si=R3jw2YKWB-fzNWR9" target="_blank" rel="noopener noreferrer" class="btn btn-youtube">
+                        <svg class="yt-icon" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                        </svg>
+                        SUBSCRIBE ON YOUTUBE
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section id="contact" class="contact section-padding">
+            <div class="container">
+                <div class="section-header fade-in">
+                    <h2 class="section-title">TRANSMISSION</h2>
+                    <p class="section-subtitle">Open communications channel.</p>
+                </div>
+
+                <div class="contact-wrapper fade-in">
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">NAME</label>
+                            <input type="text" id="name" name="name" required placeholder="Enter your designation">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">EMAIL</label>
+                            <input type="email" id="email" name="email" required placeholder="Enter communication address">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">MESSAGE</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="Enter transmission data..."></textarea>
+                        </div>
+                        
+                        <div id="form-status" class="form-status"></div>
+
+                        <button type="submit" class="btn btn-primary submit-btn">
+                            <span class="btn-text">SEND MESSAGE</span>
+                            <span class="loader"></span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <h2 class="footer-logo">GAMEY</h2>
+                <p class="footer-tagline">ANIME EDITOR &bull; CREATOR</p>
+            </div>
+            
+            <div class="footer-social">
+                <a href="https://youtube.com/@m.yashwanth-z8h?si=R3jw2YKWB-fzNWR9" target="_blank" rel="noopener noreferrer" class="social-link">YouTube</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 GAMEY. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- VIDEO MODAL -->
+    <div class="video-modal" id="video-modal">
+        <div class="modal-overlay" id="modal-overlay"></div>
+        <div class="modal-content">
+            <button class="modal-close" id="modal-close">&times;</button>
+            <div class="video-container">
+                <video id="modal-video" controls>
+                    <source src="" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+    </div>
+
+    <!-- BACK TO TOP -->
+    <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+        ↑
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
